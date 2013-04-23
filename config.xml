@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns	= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		    = "com.ruddworks.testapp"
+	version 	= "1.0">
+
+	<name>Cordova App 2.5.0</name>
+
+	<description>
+        A test app that installs all plugins
+	</description>
+
+	<author href="http://adobe.com" email="rudd@adobe.com">
+		Brett Rudd
+	</author>
+
+  <preference name="phonegap-version" value="2.5.0" />
+
+  <gap:plugin name="ChildBrowser" />
+  <gap:plugin name="BarcodeScanner" />
+  <gap:plugin name="GAPlugin" />
+  <gap:plugin name="GenericPush" />
+  <gap:plugin name="FacebookConnect"><param name="APP_ID" value="288492194593093" /></gap:plugin>
+
+</widget>
