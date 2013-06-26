@@ -33,6 +33,9 @@
   <gap:plugin name="BarcodeScanner" />
   <gap:plugin name="GAPlugin" />
   <gap:plugin name="GenericPush" />
-  <gap:plugin name="FacebookConnect"><param name="APP_ID" value="288492194593093" /></gap:plugin>
+  <gap:plugin name="FacebookConnect">
+  	<param name="APP_ID" value="288492194593093" />
+  	<param name="APP_NAME" value="whatever" />
+  </gap:plugin>
 
 </widget>
